@@ -124,8 +124,7 @@ document.addEventListener("DOMContentLoaded", function () {
 
     
     voiceSelect.addEventListener("change", function () {
-    
-        
+       
     });
 
     // Add an event listener to the file input for key press

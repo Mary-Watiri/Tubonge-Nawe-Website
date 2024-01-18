@@ -1,0 +1,22 @@
+
+h1{
+    color:brown;
+}
+body{
+    width: 100%;
+    height: 100vh;
+    background-image: url("./WhatsApp Image 2024-01-16 at 8.32.37 PM.jpeg");
+    background-size: cover;
+    background-position: center;
+    display: flex; 
+    justify-content: center;
+    align-items: center;
+
+
+}
+
+.banner img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}

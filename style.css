@@ -8,10 +8,10 @@ h2{
     text-align: center;
 }
 body{
-    background-image: url("WhatsApp Image 2024-01-17 at 1.50.26 PM.jpeg");
+    
     background-repeat: no-repeat;
     background-size: cover;
-    
+    background-color: lightblue;
 }
 .formgroup{
     width:50%;
@@ -24,4 +24,14 @@ body{
 }
 .btn-short {
     width: 100px; 
+}
+*{
+    margin:0;
+    padding: 0;
+    font-family: sans-serif;
+}
+.banner{
+    width: 100px;
+    height: 100vh;
+    background-image: linear gradient(rgba(0,0,0.75),rgba(0,0,0.75)),url('istockphoto-824777726-1024x1024.jpg');
 }
