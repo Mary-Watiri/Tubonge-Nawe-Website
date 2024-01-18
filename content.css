@@ -1,0 +1,39 @@
+/* .container{
+    background-color: rgba(207, 53, 53, 0.7);
+    box-sizing: content-box;
+
+    }
+.custom-range {
+    width: 50%;
+}
+.btn-short {
+    width: 30%; 
+}
+#main{
+  background-color: red;
+  width:fit-content
+} */
+.custom-range {
+    width: 50%;
+}
+.btn-short {
+    width: 30%; 
+}
+body{
+    background:linear-gradient(rgba(0,0,0,0.5),#009688),url("WhatsApp Image 2024-01-18 at 4.02.35 PM.jpeg"); 
+    
+}
+h1{
+    text-align: center;
+    background-color: #009688;
+}
+p{
+    text-align: center;
+}
+#text-input{
+    text-align: center;
+
+}
+form{
+    text-align: center;
+}
