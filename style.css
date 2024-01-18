@@ -1,0 +1,27 @@
+
+h1{
+    color:azure;
+    text-align: center;
+}
+h2{
+    color:rgb(226, 38, 38);
+    text-align: center;
+}
+body{
+    background-image: url("WhatsApp Image 2024-01-17 at 1.50.26 PM.jpeg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+}
+.formgroup{
+    width:50%;
+}
+.container-fluid{
+    width: 45px;
+}
+.custom-range {
+    width: 20px;
+}
+.btn-short {
+    width: 100px; 
+}
