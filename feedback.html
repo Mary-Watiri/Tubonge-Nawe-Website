@@ -1,0 +1,21 @@
+ <!DOCTYPE html>
+      <html lang="en">
+      <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Feedback</title>
+        <style src =feedback.css></style>
+      </head>
+      <body>
+        <h1>How was the experience?</h1>
+        <form id="feedbackForm">
+            <label for="feedback">Feedback:</label>
+            <input type="text" id="feedback" name="feedback" required>
+            <span id="feedbackSuccess" style="display: none; color: green;">Feedback submitted successfully!</span>
+            <span id="feedbackError" style="display: none; color: red;">Please provide feedback before submitting.</span>
+            <button type="submit" id="submitBtn">Submit Feedback</button>
+        </form>
+        <p>Thank you for choosing us as your valuable companion through the journey</p>
+        
+      </body>
+      </html>
