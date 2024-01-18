@@ -148,9 +148,12 @@ document.addEventListener("DOMContentLoaded", function () {
             reader.readAsText(selectedFile);
         }
     });
-     
+    //Creating a feedback form on the user experience
+    const feedbackForm = document.getElementById('feedbackForm');
 
-    function submitFeedback() {
+        feedbackForm.addEventListener('submit', function(event) {
+        event.preventDefault();
+
         const feedback = document.getElementById('feedback').value.trim();
         const successMessage = document.getElementById('feedbackSuccess');
         const errorMessage = document.getElementById('feedbackError');
@@ -165,5 +168,5 @@ document.addEventListener("DOMContentLoaded", function () {
             successMessage.style.display = 'none';
             errorMessage.style.display = 'block';
         }
-    } 
+    }); 
 });
