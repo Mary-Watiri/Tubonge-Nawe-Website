@@ -63,6 +63,7 @@ button{
     max-width: 1220px;
     margin:0 auto;
     padding:0 1rem;
+    
 
 }
 h1{
@@ -70,7 +71,7 @@ h1{
     line-height: 1.25;
     font-weight: 400;
     text-transform: capitalize;
-    color: #191b17;
+    color: #1463f5;
 }
 .center{
     display:flex;
@@ -86,23 +87,40 @@ h1{
     text-align: center;
     height:150%;
     width: 120%;
-    justify-content: center;
+    /* justify-content: center; */
     margin-top:3%;
+    margin-right: 60%;
+    margin-left:-10%;
+    left:90%;
     
 }
 .input{
 text-align: left;
+margin-left:72%;
+margin-top: -5%;
 }
 .volume{
     text-align: center;
     margin-top:5%;
 }
 .speak{
-    text-align:left ;
-    margin-top:-5%;
-    width:50%;
-    height: 70%;
+    text-align:center ;
+    margin-top:-9%;
+    width:20%;
+    height: 150%;
+    margin-right: 30%;
+    justify-content: center;
+    /* display: flex; */
+    font-size: 1.5em;
+    padding:0%;
+    box-shadow: #191b17;
+    
 }
+h2{
+    text-align: center;
+    color:blue;
+}
+
 .navbar{
     position: fixed;
     top:0;
@@ -118,4 +136,5 @@ text-align: left;
 p{
     justify-content: center;
     text-align: center;
+    font-style: italic;
 }
