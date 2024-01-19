@@ -1,39 +1,121 @@
-/* .container{
-    background-color: rgba(207, 53, 53, 0.7);
-    box-sizing: content-box;
-
-    }
 .custom-range {
     width: 50%;
 }
 .btn-short {
-    width: 30%; 
-}
-#main{
-  background-color: red;
-  width:fit-content
-} */
-.custom-range {
-    width: 50%;
-}
-.btn-short {
-    width: 30%; 
+    width: 100%; 
+    text-align: center;
+    justify-content: center;
 }
 body{
-    background:linear-gradient(rgba(0,0,0,0.5),#009688),url("WhatsApp Image 2024-01-18 at 4.02.35 PM.jpeg"); 
+    background:linear-gradient(rgba(77, 48, 48, 0.5),#b1b3b2),url("WhatsApp Image 2024-01-18 at 4.02.35 PM.jpeg"); 
     
-}
-h1{
-    text-align: center;
-    background-color: #009688;
-}
-p{
-    text-align: center;
 }
 #text-input{
     text-align: center;
+    right: 50px;
 
 }
-form{
+
+.form feedback{
+    display:flex;
+}
+:root{
+    ---mount-meadow:#1bbc9c;
+    --whitesmoke:#f0f0f0;
+    --night-rider:#343434;
+    --black:#191b17;
+    --transition:all 0.5s ease-in-out;
+
+}
+*{
+    font-family: sans-serif;
+    padding:0;
+    margin:0;
+    box-sizing:0;
+
+}
+html{
+    color: var(--black);
+    font-size:1rem;
+    font-weight: 300;
+    line-height: 1.5;
+    text-rendering:optimizeLegibility;
+    scroll-behavior: smooth;
+
+}
+img{
+    width:100%;
+
+}
+a{
+    text-decoration: none;
+    color: var(--black);
+}
+li{
+    list-style-type:none;
+}
+button{
+    cursor:pointer;
+    outline:0;
+    background:transparent;
+}
+.container{
+    max-width: 1220px;
+    margin:0 auto;
+    padding:0 1rem;
+
+}
+h1{
+    margin:0.6rem 0;
+    line-height: 1.25;
+    font-weight: 400;
+    text-transform: capitalize;
+    color: #191b17;
+}
+.center{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.header{
+    background-image:linear-gradient(rgba(77, 48, 48, 0.5),#0e463a),url("WhatsApp Image 2024-01-18 at 4.02.35 PM.jpeg")
+}
+.main{
+
+    text-align: center;
+    height:150%;
+    width: 120%;
+    justify-content: center;
+    margin-top:3%;
+    
+}
+.input{
+text-align: left;
+}
+.volume{
+    text-align: center;
+    margin-top:5%;
+}
+.speak{
+    text-align:left ;
+    margin-top:-5%;
+    width:50%;
+    height: 70%;
+}
+.navbar{
+    position: fixed;
+    top:0;
+    left:0;
+    width: 100%;
+    background-color: lightblue;
+    display:flex;
+
+}
+.hero-div center{
+    justify-content: center;
+}
+p{
+    justify-content: center;
     text-align: center;
 }
