@@ -7,7 +7,7 @@
     justify-content: center;
 }
 body{
-    background:linear-gradient(rgba(77, 48, 48, 0.5),#b1b3b2),url("WhatsApp Image 2024-01-18 at 4.02.35 PM.jpeg"); 
+    background:linear-gradient(rgba(77, 48, 48, 0.5),#71aeeb),url("WhatsApp Image 2024-01-18 at 4.02.35 PM.jpeg"); 
     
 }
 #text-input{
@@ -80,7 +80,7 @@ h1{
 }
 
 .header{
-    background-image:linear-gradient(rgba(77, 48, 48, 0.5),#0e463a),url("WhatsApp Image 2024-01-18 at 4.02.35 PM.jpeg")
+    background-image:linear-gradient(rgba(77, 48, 48, 0.5),#675dfc),url("WhatsApp Image 2024-01-18 at 4.02.35 PM.jpeg")
 }
 .main{
 
