@@ -1,0 +1,14 @@
+{
+  "name": "tubonge",
+  "version": "1.0.0",
+  "description": "## <h1>LEARNING OBJECTIVES</h1> <ol> <li>Creating a web application that implements the basic concepts of web programming in HTML,CSS,JavaScript,Bootstrap.</li> <li>The illustration of fetching data from public APIs such as the the Google Books API for our case here and the JavaScript builtin synthesis API</li> <li>Incorporation of keyboard features for a website to enhance intearactivity</li> </ol>",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "json-server": "^1.0.0-alpha.22"
+  }
+}
