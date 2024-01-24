@@ -138,3 +138,7 @@ p{
     text-align: center;
     font-style: italic;
 }
+.next-link{
+    float:right;
+    color:#191b17
+}
