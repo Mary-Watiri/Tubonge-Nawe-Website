@@ -1,24 +1,16 @@
-title{
-    text-align: center;
-    color: #000;
-    position:absolute;
+body {
+    font-family: Arial, sans-serif;
+    height: 100vh;
+    margin: 0;
+    background-color: lightblue;
+    /* background-image: url('WhatsApp Image 2024-01-22 at 9.49.51 PM.jpeg'); */
+
 }
-body{
-background-image: url("WhatsApp Image 2024-01-16 at 8.32.37 PM.jpeg");
-font-family: Georgia, 'Times New Roman', Times, serif;
-font-size: 100;
-font-style: italic;
+
+h2{
+    text-align: center;
+    justify-content: center;
 }
 p{
-font-weight: bolder;
-text-align: left;
-}
-.container{
-max-width: 800px;
-margin: 0 auto;
-text-align: left;
-padding: 20px;
-background-color: #009688;
-border-radius: 10px;
-box-shadow: 0 0 10px rgba(0, 0, 0, 0.5); 
+    text-align: center;
 }
